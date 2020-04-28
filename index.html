@@ -29,7 +29,7 @@
                             <span class="icon-bar middle-bar"></span>
                             <span class="icon-bar bottom-bar"></span>
                         </button>
-                        <a class="navbar-brand to-top" href="#"><img src="img/assets/logo-light.png" class="logo-light" alt="#"><img src="img/assets/logo-dark.png" class="logo-dark" alt="#"></a> 
+                        <a class="navbar-brand to-top" href="#"><img src="img/assets/logol.png" class="logo-light" alt="#"><img src="img/assets/logod.png" class="logo-dark" alt="#"></a> 
                     </div>
                 </div>
 
@@ -57,47 +57,45 @@
         </nav>
         <!-- End Header -->
         
-        <!-- Hero -->
-        <section id="hero" class="hero-fullscreen parallax" data-overlay-dark="7">
-            <div class="background-image">
-                <img src="img/backgrounds/bg-1.jpg" alt="#">
-            </div>
-            
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="hero-content-slider mt20" data-autoplay="true" data-speed="4000">
-                        
-                        <div>
-                            <h1>We Are Wunderkind<br><strong>Something You Love</strong></h1>
-                            <p class="lead">We are digital agency that loves crafting beautiful websites with great functionality.</p>
-                            <a href="#about" class="btn btn-lg btn-primary btn-scroll">We're Creative</a>  
-                        </div>
-                        
-                        <div>
-                            <h1>We Are Wunderkind<br><strong>We Make Brands Shine</strong></h1>
-                            <p class="lead">We do innovation, creativity, effectiveness and all that with love.</p>
-                            <a href="#about" class="btn btn-lg btn-primary btn-scroll">What we do</a>  
-                        </div>
-                        
-                        <div>
-                            <h1>We Are Wunderkind<br><strong>Best Digital Agency</strong></h1>
-                            <p class="lead">Wunderkind was honored as best agency at EdAwards in New York.</p>
-                            <a href="#about" class="btn btn-lg btn-primary btn-scroll">Made with <i class="ion-heart"></i></a>  
-                        </div>
-                        
-                        <div>
-                            <h1>We Are Wunderkind<br><strong>Nice to Meet You</strong></h1>
-                            <p class="lead">Let's meet up and see if there's chemistry!</p>
-                            <a href="#team" class="btn btn-lg btn-primary btn-scroll">Meet the Team</a>  
-                        </div>
-                        
+        <!-- Hero Slider -->
+        <section id="hero" class="hero-fullscreen parallax" data-overlay-dark="8">
+            <div class="hero-slider" data-autoplay="false" data-speed="4000" data-touch-drag="false">
+                
+                <!-- Slide -->
+                <div class="slide"> 
+                    <div class="background-image">
+                        <img src="img/backgrounds/bg-1.jpg" alt="img">
                     </div>
-                    
+                    <div class="container">  
+                        <div class="row"> 
+                            <div class="appear text-center"> 
+                                <h1>We Are Wunderkind<br><strong>Something You Love</strong></h1>
+                                <p class="lead mb40">We are digital agency that loves crafting beautiful websites with great functionality.</p>
+                                <a href="#about" class="btn btn-lg btn-primary btn-scroll">We're Creative</a>  
+                            </div>
+                        </div> 
+                    </div>   
                 </div>
+                
+                <!-- Slide -->
+                <div class="slide">
+                    <div class="background-image">
+                        <img src="img/backgrounds/bg-2.jpg" alt="img">
+                    </div>
+                    <div class="container">  
+                        <div class="row"> 
+                            <div class="appear text-center"> 
+                                <h1>We Are Wunderkind<br><strong>We Make Brands Shine</strong></h1>
+                                <p class="lead mb40">We do innovation, creativity, effectiveness and all that with love.</p>
+                                <a href="#about" class="btn btn-lg btn-primary btn-scroll">What we do</a>  
+                            </div>
+                        </div> 
+                    </div>   
+                </div>
+                
             </div>
         </section>
-        <!-- End Hero -->
+        <!-- End Hero Slider --> 
         
         <!-- About Us -->
         <section id="about" class="pt100 pb90">
@@ -383,7 +381,7 @@
                         <p>Praesent condimentum nulla at mauris ornare, eget consequat felis euismod. Praesent condimentum nulla at mauris ornare. Fusce faucibus tincidunt nulla, tincidunt sagittis magna venenatis quis. Proin commodo eu ipsum eu suscipit.</p> 
                     </div>
 
-                    <div class="col-md-6 mt50 mb50">
+                    <div class="col-md-6  mt50 mb50">
                         <div class="video-container">
                             <img src="img/video/thumbnail-youtube.jpg" />
                             <iframe data-video-embed="https://www.youtube.com/embed/B08iLAtS3AQ"></iframe>
@@ -940,11 +938,17 @@
                     
                     <div class="col-md-12 details white text-center">
                         <div class="phone-number mb10">
-                            <h1 class="bold">48-1516-2342</h1>
+                            <h1 class="bold">+91 99950 26606</h1>
                         </div>
                         <div class="col-lg-12">
-                            <h3>hello@<span class="color">domain.com</span></h3>
-                            <h4>124 Central West, Manhattan, <span class="color">New York</span></h4>
+
+                            <h3>comfycareppl@<span class="color">gmail.com</span></h3>
+                            <h3>Registered Office</h3>
+                            <h4>2nd Floor, 43/1341-B5, C M Complex, Kalavath Road, Palarivattom,
+                                    <span class="color">Ernakulam, Kerala - 682025</span></h4>
+                                    <h3>Facilitaion Center</h3>
+                            <h4>16/216 C, K.M.M. Centre, Ground Floor, Eloor East, Udyogamandal P.O.,
+                                    <span class="color">Cochin - 683501</span></h4>
                         </div>
                     </div>
                     
@@ -966,7 +970,7 @@
                     <div class="col-md-8 col-md-offset-2 contact box-style"> 
                         <div id="message-info"></div>
                         <!-- Forms can be functional only on server. Upload to your server when testing. -->
-                        <form id="contactform" method="post"> 
+                        <form id="contactform" method="post" action="./php/contact-form.php"> 
                             
                             <div class="col-sm-12">
                                 <input name="name" id="name" placeholder="Your Name *"/>
@@ -993,21 +997,15 @@
         <!-- End Contact Form -->
         
         <!-- Google Map -->
-        <section 
-            id="vossen-map"
-            data-map-address="160 Central Park West, New York, NY 10023, USA"
-            data-marker-info="Come visit us today!<br>4th West St, New York"
-            data-maps-api-key="AIzaSyBD3JE1T5ssqLMdfRgR1bErpuWNBtIMHbI"
-            data-map-zoom="16"
-            data-map-height="500px"
-            data-map-style="light"> <!-- dark, light, standard -->
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15716.848710553033!2d76.30069712449823!3d9.999324935625044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d0bd455b717%3A0x2cd791ee463cf642!2sPalarivattom%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1588054579025!5m2!1sen!2sin" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </section>
         <!-- End Google Map -->
         
         <!-- Start Footer -->
         <footer id="footer" class="footer style-1 dark">
 
-            <a href="index.html"><img src="img/assets/footer-logo.png" alt="#" class="mr-auto img-responsive"></a>
+            <a href="index.html"><img src="img/assets/logol.png" alt="#" class="mr-auto img-responsive"></a>
             <ul>
                 <li><a href="https://www.twitter.com/" target="_blank" class="color"><i class="ion-social-twitter"></i></a></li>
                 <li><a href="https://www.facebook.com/" target="_blank" class="color"><i class="ion-social-facebook"></i></a></li>
@@ -1015,7 +1013,7 @@
                 <li><a href="https://www.pinterest.com/" target="_blank" class="color"><i class="ion-social-pinterest"></i></a></li> 
                 <li><a href="https://plus.google.com/" target="_blank" class="color"><i class="ion-social-googleplus"></i></a></li> 
             </ul>
-            <a href="http://themeforest.net/user/vossendesign/portfolio" target="_blank"><strong>© Wunderkind 2016</strong></a>
+            <a href="#" target="_blank"><strong>© PalcareProducts 2020</strong></a>
             <p>Made with love for great people.</p>
             
             <!-- Back To Top Button -->
