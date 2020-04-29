@@ -841,9 +841,11 @@ fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, f
     text-align: left;
     margin: 14px 0;
     padding: 0 20px;
+
 }
 .feature-left p {
     padding-right: 15px;
+    text-align: justify;
 }
 .feature-left i { 
     display: table-cell; 
