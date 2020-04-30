@@ -3,7 +3,7 @@
 if(!$_POST) exit;
 
 // Email address that messages will be sent to;
-$address = "vossendesign@gmail.com";
+$address = "akashrajendran03@gmail.com";
 
 // Email address verification, do not edit.
 function isEmail($email) {
@@ -40,7 +40,7 @@ if(get_magic_quotes_gpc()) {
 // Configuration option.
 
 // Email content
-$e_subject = 'New message from your website';
+$e_subject = 'New message from Palcare Products Website';
 $e_content = "$message" . PHP_EOL . PHP_EOL;
 $e_details = "\n Sender: $name \n Phone: $phone \n Email: $email" . PHP_EOL . PHP_EOL;
 $e_reply = "You can reply directly to this email to respond to $name." . PHP_EOL . PHP_EOL;
