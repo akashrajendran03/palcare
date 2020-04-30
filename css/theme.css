@@ -3219,6 +3219,8 @@ nav.navbar {
     background-color: #fff; 
     border-radius: 0;
     margin-bottom: 0; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 nav.navbar,
 nav.navbar.nav-small {
@@ -3230,7 +3232,7 @@ nav.navbar.nav-small {
     padding: 0;
 } 
 .navbar-brand img { 
-    max-height: 68px;
+    max-height: 88px;
     max-width: none;
 }
 .nav-small .navbar-brand img { 
