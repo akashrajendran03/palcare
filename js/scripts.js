@@ -338,7 +338,7 @@
         $('.nav li.dropdown>a, .dropdown-submenu>a').on('click', function () {
             $(this).closest('.dropdown').siblings().removeClass('open');
             $(this).closest('.dropdown').toggleClass('open');
-            return false;
+            return true;
         });
         $('.nav li a, .btn-scroll').on('click', function () {
             var $anchor = $(this);            
